@@ -2,6 +2,11 @@ package org.launchcode.models;
 
 /**
  * Created by LaunchCode
+ *  * It contains all of the fields that you've grown used to while working on TechJobs: name,
+ *  * employer, location, coreCompetency, and positionType.
+ *  * There's also an "id" field which will be used to uniquely identify Job objects.
+ *
+ *  THIS CLASS REPRESENTS DATA
  */
 public class Job {
 
@@ -18,7 +23,7 @@ public class Job {
         id = nextId;
         nextId++;
     }
-
+    //constructor
     public Job(String aName, Employer aEmployer, Location aLocation,
                PositionType aPositionType, CoreCompetency aSkill) {
 
@@ -31,7 +36,7 @@ public class Job {
         coreCompetency = aSkill;
 
     }
-
+    //getters and setters
     public String getName() {
         return name;
     }

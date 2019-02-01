@@ -8,6 +8,7 @@ import java.util.HashMap;
 
 /**
  * Created by LaunchCode
+ * HANDLE STORAGE AND ACCESS TO DATA/ OBJECT
  */
 public class JobData {
 
@@ -40,7 +41,7 @@ public class JobData {
 
         return null;
     }
-
+    //FIND ALL THE JOBS
     public ArrayList<Job> findAll() {
         return jobs;
     }
